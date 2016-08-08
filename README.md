@@ -5,7 +5,7 @@ Download our repository
 git clone https://github.com/deepart-io/deepart-api.git
 ```
 
-## Bash
+## Bash example
 ```
 cd bash
 ```
@@ -17,7 +17,7 @@ Now, for any image you want to convert just type
 
 where `style_id` is `1,3,4,5` in order as on http://turbo.deepart.io/
 
-## Python
+## Python example
 ```
 cd python
 ```
