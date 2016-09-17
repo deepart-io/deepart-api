@@ -15,7 +15,7 @@ Now, for any image you want to convert just type
 ./submit.sh filepath style_id
 ```
 
-where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
 
 ## Python example
 ```
@@ -27,4 +27,4 @@ Now, for any image you want to convert just type
 python submit.py filepath style_id
 ```
 
-where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
