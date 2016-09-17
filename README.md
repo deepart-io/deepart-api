@@ -15,7 +15,7 @@ Now, for any image you want to convert just type
 ./submit.sh filepath style_id
 ```
 
-where `style_id` is `1,3,4,5` in order as on http://turbo.deepart.io/
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/
 
 ## Python example
 ```
@@ -27,4 +27,4 @@ Now, for any image you want to convert just type
 python submit.py filepath style_id
 ```
 
-where `style_id` is `1,3,4,5` in order as on http://turbo.deepart.io/
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/
