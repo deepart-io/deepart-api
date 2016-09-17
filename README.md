@@ -1,4 +1,4 @@
-# deepart-api version 0.0.1 pre-alpha
+# deepart-api version 0.1 alpha
 
 Download our repository
 ```bash
