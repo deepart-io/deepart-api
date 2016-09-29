@@ -5,30 +5,6 @@ Download our repository
 git clone https://github.com/deepart-io/deepart-api.git
 ```
 
-## Bash example
-```
-cd bash
-```
-
-Now, for any image you want to convert just type
-```
-./submit.sh filepath style_id
-```
-
-where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
-
-## Python example
-```
-cd python
-```
-
-Now, for any image you want to convert just type
-```
-python submit.py filepath style_id
-```
-
-where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
-
 ## API
 ### Authentication
 Does not require any parameters for the moment. Returns the version
@@ -67,3 +43,27 @@ Returns:
 http://turbo.deepart.io/media/output/[image_id].jpg
 ```
 It may take around 1 second to have the image ready. For now let's just try to download it every 1 sec (and give up after 10 sec). In future there will be a push notification.
+
+## Bash example
+```
+cd bash
+```
+
+Now, for any image you want to convert just type
+```
+./submit.sh filepath style_id
+```
+
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
+
+## Python example
+```
+cd python
+```
+
+Now, for any image you want to convert just type
+```
+python submit.py filepath style_id
+```
+
+where `style_id` is one of the styles listed here http://turbo.deepart.io/styles/ (in the format `style_id style_url`)
